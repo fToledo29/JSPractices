@@ -1,0 +1,22 @@
+{
+  "name": "jspractices",
+  "version": "1.0.0",
+  "description": "JavaScript practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "keywords": [
+    "JavaScript",
+    "problem",
+    "solving"
+  ],
+  "author": "Fernando Toledo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2"
+  }
+}
