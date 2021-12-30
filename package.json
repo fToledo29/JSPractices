@@ -4,7 +4,8 @@
   "description": "JavaScript practices",
   "main": "index.js",
   "scripts": {
-    "test": "jest --silent"
+    "test": "jest --silent",
+    "debug": "jest"
   },
   "keywords": [
     "JavaScript",
