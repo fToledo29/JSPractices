@@ -10,5 +10,4 @@ This repo shows some common challenges and their solutions on JavaScript, I divi
 * Add a new Module.
 * Run the tests:
   - ``npm run test``
-  
- 
+![Terminal screenshot](https://github.com/fToledo29/JSPractices/tree/main/imgs/jsPractices_screen.png)
