@@ -1,4 +1,3 @@
-const { circlePalData } = require("./circlePalData");
 
 let permutCounter = {};
 
