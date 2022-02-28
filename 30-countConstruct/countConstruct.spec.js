@@ -11,7 +11,7 @@ describe('Testing Count Construct', () => {
 		expect(countConstruct('abcdf', ['ab', 'cd', 'fg', 'abcd'])).toBe(0);
 	});
 	it('Should retun false', () => {
-	expect(countConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeuuuuuuuuuuuuuueeeeeef', [
+		expect(countConstruct('eeeeeeeeeeeeeeeeeeeeeeeeeeeeuuuuuuuuuuuuuueeeeeef', [
 			'e',
 			'ee',
 			'eee',
