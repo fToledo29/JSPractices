@@ -6,9 +6,7 @@ const bestSum2 = (target, nums) => {
 		if (!arr[i]) continue;
 		for (const num of nums) {
 			const res = [...arr[i], num];
-			if (arr[num + i] && res.length < arr[num + i].length) {
-				arr[num + i] = res;
-			} else if (arr[num + i] === null) {
+			if (!arr[num + i] || res.length < arr[num + i].length) {
 				arr[num + i] = res;
 			}
 		}
