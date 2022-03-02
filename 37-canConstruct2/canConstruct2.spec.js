@@ -1,5 +1,5 @@
 
-const { canConstruct2 } = require("./countConstruct2");
+const { canConstruct2 } = require("./canConstruct2");
 
 describe('Testing canConstruct', () => {
 	it('Should return a boolean', () => {
