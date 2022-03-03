@@ -14,7 +14,6 @@ const countConstruct2 = (target = '', words = []) => {
 	arr[0] = 1;
 
 	for (let i = 0; i <= target.length; i++) {
-		if (!arr[i]) continue;
 		for (const word of words) {
 			if (target.slice(i, i + word.length) === word) {
 				arr[word.length + i] += arr[i];
